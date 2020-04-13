@@ -1,0 +1,651 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@font-face {
+  font-family: 'JaapokkiRegular';
+  src: url("../fonts/jaapokki/jaapokki-regular.eot");
+  src: url("../fonts/jaapokki/jaapokki-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/jaapokki/jaapokki-regular.woff") format("woff"), url("../fonts/jaapokki/jaapokki-regular.ttf") format("truetype"), url("../fonts/jaapokki/jaapokki-regular.svg#JaapokkiRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+/* Main navigation */
+.navbar {
+    padding: 0;
+  }
+  
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 15px 18px !important;
+    transition: .2s ease;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav .nav-link {
+      padding: 10px !important;
+    }
+  }
+
+
+.header3 .navbar {
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 1px 7px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .header3 .navbar-brand {
+    background: transparent;
+  }
+  
+  .header3 .navbar-toggler {
+    background: transparent;
+  }
+.navbar-brand
+{
+  width: 180px;
+}
+/*--SLIDER--*/
+.carousel-item.ed:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+.carousel-caption
+{
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+}
+.carousel-caption h1
+{
+  font-family: 'JaapokkiRegular';
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 56px;
+  line-height: 48px;
+  text-shadow: .1rem.1rem.5rem black;
+}
+
+.carousel-caption h2
+{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+
+}
+
+
+.btn.btn-primary {
+  color: #323232;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn.btn-primary:hover {
+  color: #fff;
+}
+
+.btn.btn-primary.white {
+  border: 2px solid #F52A0F;
+  color: #F52A0F;
+}
+
+.btn.btn-primary.white:hover {
+  border: 2px solid;
+  background-color: #F52A0F;
+  color: #fff;
+}
+
+
+.jumbotron
+{
+    border-radius: 0;
+    margin: 15px -14px 0 -14px;
+    padding: 3rem 0 2.3rem;
+}
+.jumbotron.containner-fluid
+{
+  border-radius: 0;
+    margin: 15px -26px 0 -26px;
+    padding: 3rem 0 2.3rem;
+}
+h3 {
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: "JaapokkiRegular";
+}
+.heading-underline
+{
+    width: 3rem;
+    height: .2rem;
+    background-color: #F52A0F;
+    margin: 0 auto 2rem;
+
+}
+h4
+{
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: 100;
+  font-family: "JaapokkiRegular";
+  padding-top: 12px;
+}
+
+/* Image Block
+================================================== */
+.image-block {
+  background: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+.img-block-right {
+  padding-right: 140px;
+}
+
+.img-block-head h2 {
+  font-size: 25px;
+  line-height: normal;
+  margin: 5px 0 0 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.img-block-head h3 {
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.image-block-content {
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+
+.image-block-content .feature-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.image-block-content .feature-content {
+  padding-left: 85px;
+}
+
+.image-block-content .feature-content h3 {
+  margin-bottom: 0;
+}
+
+/* Parallax */
+.parallax {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-attachment: fixed !important;
+  padding: 110px 0;
+  color: #fff;
+  position: relative;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.parallax h2,
+.parallax h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.parallax .btn {
+  color: #fff;
+}
+
+.parallax-overlayy {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/overaly.png);
+}
+
+.parallax h3 {
+  margin-bottom: 30px;
+}
+
+.parallax1 {
+  background: url(../images/parallax/parallax1.jpg) no-repeat;
+}
+.parallax .btn.solid {
+  margin-left: 10px;
+}
+
+label
+{
+  font-family: "JaapokkiRegular"
+}
+
+/*======= parallax2====================*/
+
+.parallax2 {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url('../images/parallax/parallax2.jpg') no-repeat ;
+  background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+  margin-bottom: 30px;
+  padding-top: 70px;
+  height: 540px;
+  width: 1423px;
+}
+
+.page-title span{
+	color: #F52A0F;
+}
+
+hr{
+	width: 50px;
+	height: 3px;
+	margin-bottom: 50px;
+	background: #F52A0F;
+}
+
+.user-desc{
+	text-align: center;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.user-name{
+	font-size: 18px;
+	text-align: center;
+}
+
+.user-name span{
+	font-weight: bold;
+	color: #F52A0F;
+}
+
+.client-img{
+	padding: 1px;
+	border: 2px solid #ce0000;
+}
+
+
+/* Footer
+================================================== */
+.footer {
+  padding-bottom: 10px;
+  padding-top: 20px;
+  background: #2e2e2e url(../images/footer-bg.jpg) no-repeat center 0 ;
+  background-size: cover;
+  
+}
+h4.text-capitalize.mb-4
+{
+  color: #d9d9d9
+}
+ ul li a 
+{
+  color: #d9d9d9;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: none;
+}
+p.customize
+{
+  color: #d9d9d9;
+}
+h6.customize
+{
+  color: #d9d9d9;
+  font-size: 18px;
+}
+span.text-color.h4
+{
+  color: #d9d9d9;
+  font-size: 25px;
+}
+span.custo
+{
+  color: #F52A0F;
+}
+.list-unstyled.footer-menu.lh-35 :hover
+{
+  color: #F52A0F;
+  text-decoration: none;
+}
+.footer .copyright {
+  font-weight: 600;
+  color: #d9d9d9;
+}
+.sub-form {
+  position: relative;
+}
+
+.sub-form .form-control {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #f5f8f9;
+}
+.btn.btn-main.btn-small
+{
+  color: #f5f8f9;
+  background-color: #F52A0F;
+  padding: 10px 18px;
+  font-size: 12px;
+
+}
+.btn.btn-main.btn-small:hover
+{
+  color: #F52A0F;
+  background-color:#fff;
+
+}
+
+.footer-btm {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-socials li a {
+  margin-left: 15px;
+}
+li.list-inline-item a:hover
+{
+  color: #F52A0F;
+  text-decoration: none;
+}
+/* Banner area */
+#banner-area {
+  position: relative;
+}
+
+.banner-title-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.banner-title-content h2 {
+  color: #fff;
+  font-size: 36px;
+}
+
+.banner-title-content .breadcrumb {
+  background: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.banner-title-content .breadcrumb a:hover {
+  color: #ccc;
+}
+
+/* About Us */
+.row.about-wrapper-top
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.row.row.about-wrapper-bottom
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 50px;
+  margin-left: 50px;
+}  
+
+.about-message {
+  background: #f4f4f4;
+  min-height: 374px;
+}
+.ts-padding
+{
+  padding: 50px;
+}
+.col-md-6
+{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.about-message ul li a {
+  color: #6A6A6A;
+}
+
+.color
+{
+  color: #F52A0F;
+  
+}
+.color :hover
+{
+  text-decoration: none;
+  color: #F52A0F;
+}
+h2
+{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: 'JaapokkiRegular';
+}
+
+.parallax-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../images/overaly.png);
+}
+/************************* contact ************/
+h1.text-capitalize.mb-4.text-lg
+{
+  color: #d9d9d9;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+
+.contact-form-wrap
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+span.text-color
+{
+  color: #F52A0F;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.contact-form-wrap .form-group 
+{
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+.contact-form-wrap .form-group .form-control 
+{
+  background: #f5f8f9;
+  height: 48px;
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+  width: 100%;
+}
+
+.contact-form-wrap .form-group-2 
+{
+  margin-bottom: 13px;
+}
+
+.contact-form-wrap .form-group-2 textarea 
+{
+  background: #f5f8f9;
+  height: 135px;
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+  width: 100%;
+}
+.address-block li 
+{
+  margin-bottom: 10px;
+}
+
+.address-block li i {
+  font-size: 20px;
+  width: 20px;
+}
+
+.social-icons li 
+{
+  margin: 0 6px;
+}
+
+.social-icons i
+{
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+/*******Courses page *******/
+.section.course
+{
+  padding-top: 30px;
+}
+img.img-fluidd {
+  border-radius: 100%;
+  box-shadow: 0px 0px 59px 0px #6A6A6A;
+
+}
+
+.course.bg-about {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+
+.course .content-block {
+  margin-left: -50px;
+}
+
+.course .content-block h2 {
+  margin-bottom: 35px;
+}
+
+.course .content-block h2:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #F52A0F;
+  display: block;
+  margin-top: 10px;
+}
+.row.bg
+{ 
+background: url(../images/Coursesbg.jpg) fixed no-repeat;
+background-size: cover;
+background-position: center center;
+margin-bottom: 20px;
+}
+.card.custom
+{
+  margin-top: 20px;
+
+}
+.card.custo
+{
+  margin-left: 22.5px;
+  margin-top: 15px;
+}
+.btn.btn-primary.white.custo
+{
+  margin-left: 500px;
+}
+
+
+.btn.btn-success {
+  color: #323232;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn.btn-success:hover {
+  color: #fff;
+}
+
+.btn.btn-success.white {
+  border: 2px solid #F52A0F;
+  color: #F52A0F;
+}
+
+.btn.btn-success.white:hover {
+  border: 2px solid;
+  background-color: #F52A0F;
+  color: #fff;
+}
+
+
+.btn.btn-success.white.cust {
+
+border: 2px solid;
+background-color: #F52A0F;
+color: #fff;
+}
+.btn.btn-success.white.cust:hover {
+  border: 2px solid #F52A0F;
+  color: #F52A0F;
+  background-color: #fff;
+}
+.ulcusto
+{
+  text-align: left;
+  font-size: 16px;
+  color: #6A6A6A;
+  font-family: 'JaapokkiRegular';
+  letter-spacing: 0.4px;
+}
+
+
+/****************************************************************************************************************
+                                     Devology 20 <3 
+*****************************************************************************************************************/
